@@ -11,7 +11,7 @@ The `main.py` script performs the following steps:
 3.  **Run Evolutionary Algorithms:** Applies two different multi-objective evolutionary algorithms (NSGA-II and MOEA/D) to find a set of optimal routes that represent trade-offs between minimizing distance and maximizing comfort.
 4.  **Analyze and Visualize Results:** Extracts the Pareto front from the solutions found by each algorithm and visualizes them in a plot comparing the performance of the algorithms against the original dataset.
 
-## Code Structure Explanation
+## Code
 
 -   **Dataset Loading and Processing:** The initial part of the script reads `sampled_routes_with_metrics.csv` and populates the `edges` dictionary with edge data (distance and combined comfort score) and `dataset_points` with the objective values of the original dataset routes.
 -   **`RoutePermutationProblem` Class:** Defines the optimization problem for PyGMO. The `fitness` method takes a candidate solution (a vector `x` representing a sequence of intermediate nodes) and returns the objective values (total distance and the negative of average comfort) for the corresponding route.
