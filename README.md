@@ -9,6 +9,7 @@ This project consists of two main scripts:
 - `generate_data.py`: Generates the dataset of bicycle routes and their metrics.
 - `prepare_dataset.py`: Samples 300 pre-computed routes from the previouse step to make the computation easier when running evolutionary algorithms. We work with this sampled dataset throught the project.
 - `main.py`: Performs multi-objective optimization on the generated dataset using evolutionary algorithms (NSGA-II and MOEA/D) and visualizes the results.
+- `MODA25A2_15.pdf`: Contains the report of the project, including methodology, results, and conclusions.
 
 ### Workflow
 
